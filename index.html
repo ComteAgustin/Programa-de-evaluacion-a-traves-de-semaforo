@@ -1,0 +1,40 @@
+<html>
+<head>
+    <title>Semaforo para evaluar</title>
+
+    <!-- ESTILOS -->
+    <link rel="stylesheet" href="estilos.css" />
+    <!-- FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <h1>Evaluacion con semaforo</h1>
+        <!-- SEMAFORO -->
+        <div class="semaforo">
+            <div class="contenedor-luces">
+                <!-- LUZ-ROJA -->
+                <div class="luces luz-roja" id="luzRoja">
+                </div>
+               <!-- LUZ-AMARILLA -->
+                <div class="luces luz-amarilla" id="luzAmarilla">
+                </div>    
+                <!-- LUZ-VERDE -->        
+                <div class="luces luz-verde" id="luzVerde">
+                </div>
+            </div>    
+        </div>
+
+        <div class="controles">
+            <div class="contenedor-boton">
+                <button onclick="prenderLuzRoja()" class="boton bgRojo" id="botonRojo">More study, come on!!</button>
+                <button onclick="prenderLuzAmarilla()" class="boton bgAmarillo" id="botonAmarillo">It´s good</button>
+                <button onclick="prenderLuzVerde()" class="boton bgVerde" id="botonVerde">Brilliant</button>
+            </div>                    
+        </div> 
+ 
+    <!-- FONTS AWESOME -->
+    <script src="https://kit.fontawesome.com/ce5ceb80e5.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>

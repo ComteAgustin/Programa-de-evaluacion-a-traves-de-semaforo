@@ -1,0 +1,84 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Chelsea Market', cursive;
+	font-weight: 100;
+}
+
+body {
+    background-color: #bbbbbb;
+}
+
+.main {
+	background: white;
+	width: 90%;
+	margin: 100px auto;
+}
+
+/* SEMAFORO */
+
+h1 {
+	text-align: center
+}
+
+.semaforo {
+	background: url(semaforo.png) no-repeat center center/cover;
+	width: 180px;
+	height: 250px;
+	margin: 60px auto;
+}
+
+.luces {
+	background: #b1b1b1;
+	width: 65px;
+	height: 65px;
+	margin-left: 58px;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.luz-roja {
+	margin-top: 26px;
+	margin-bottom: 12px;
+}
+
+.luz-verde {
+	margin-top: 9px;
+}
+.contenedor-boton {
+	display: flex;
+	flex-direction: row ;
+	justify-content: center;
+	align-item: center;
+}
+
+.boton {
+	width: 100px;
+	margin: 20px;
+	border: none;
+	padding: 5px;
+}
+
+.bgRojo {
+	background-color: rgb(239, 35, 33);
+}
+
+.bgAmarillo {
+	background-color: rgb(234, 183, 55); 	
+}
+
+.bgVerde {
+	background-color: rgb(89, 216, 92);
+}
+
+/* BOTON */
+
+.show-button {
+	text-align: center;
+}
+
+.button {
+	width: 100px;
+	height: 50px;
+	font-size: 16px;
+}
