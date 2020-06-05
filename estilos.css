@@ -47,6 +47,20 @@ body {
 	border-bottom: 2px solid white;
 }
 
+/* MAIN APP */
+
+.main-app {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.img {
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+}
 
 /* SEMAFORO */
 
